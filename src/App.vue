@@ -1,0 +1,43 @@
+<template>
+  <div id="app">
+      <div class="tabs">
+        <ul>
+          <li>
+            <router-link to="/customers">Customers</router-link>        
+          </li>
+          <li>
+<!--            <router-link to="/customers">Customer</router-link>-->
+          </li>
+          <li>
+            <router-link to="/analytics">Analytics</router-link>
+          </li>
+			 <li>
+            <router-link to="/newCustomer">New Customer</router-link>
+          </li>
+			 <li>
+            <router-link to="/newDevice">New Device</router-link>
+          </li>
+        </ul>
+    </div>
+    
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: 'App',
+  };
+
+</script>
+
+<style>
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+</style>
