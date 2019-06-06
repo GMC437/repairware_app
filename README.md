@@ -3,7 +3,7 @@
 Ensure the API is running before starting
 Also all dependencies are in the API ReadMe.txt
 
-Github Repo: https://github.com/gmcDBS/project_artifact_app 
+Github Repo: https://bitbucket.org/GMC437/repairware_api
 
 ## Build Setup
 
